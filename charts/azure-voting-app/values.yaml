@@ -36,7 +36,7 @@ azureVoteBack:
     externalPort: 6379
 
   deployment:
-    replicas: 1
+    replicas: 2
     name: back
     image: microsoft/azure-vote-back
     imageTag: v1
