@@ -15,7 +15,7 @@ azureVoteFront:
     externalPort: 80
 
   deployment:
-    replicas: 1
+    replicas: 3
     name: front
     image: jhansiacr2.azurecr.io/votingapp
     imageTag: v1
