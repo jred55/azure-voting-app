@@ -10,7 +10,11 @@ resources:
 
 variables:
   # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+  #vmImageName: 'ubuntu-latest'
+  - name: vmImageName
+    value: 'ubuntu-latest'
+
+  - group: JhansiVargroup
 
 stages:
   - stage: Build
